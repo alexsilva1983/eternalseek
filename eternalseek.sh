@@ -1,7 +1,7 @@
 #!/bin/bash
-# Eternal v1.0
+# EternalSeek v1.0
 # Author: thelinuxchoice
-# Github: github.com/thelinuxchoice/eternal
+# Github: github.com/thelinuxchoice/eternalseek
 # Instagram: @thelinuxchoice
 trap 'printf "\n";partial;exit 1' 2
 
@@ -55,7 +55,7 @@ if [[ -e targets-$session ]]; then
 mv targets-$session sessions/targets-$session
 fi
 printf "\e[1;77m[*] Session saved.\e[0m\n"
-printf "\e[1;93m[*] Use ./eternal.sh --resume\n"
+printf "\e[1;93m[*] Use ./eternalseek.sh --resume\n"
 else
 exit 1
 fi
