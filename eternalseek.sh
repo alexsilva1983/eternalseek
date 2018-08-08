@@ -424,8 +424,6 @@ fi
 
 case "$1" in --resume) resume ;; *)
 banner
-
-#printf "\e[1;92m[*] Usage: ./netscanp.sh --scan --resume --printer  \e[0m\n"
 menu
 esac
 
